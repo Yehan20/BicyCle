@@ -55,7 +55,7 @@ const ProductSection = () => {
   ];
 
   return (
-    <Container fluid className="product-section p-5">
+    <Container fluid className="product-section px-5 py-1">
       <Row className="mb-3 justify-content-between align-items-center" data-aos="fade-up" data-aos-offset="0">
         <Col md={6}>
           <h2 className="section-title">Our Products</h2>

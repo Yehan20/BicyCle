@@ -15,6 +15,7 @@ const BackToTopButton = lazy(() => import('./components/button/BackToTop'));
 import Aos from 'aos';
 
 import 'aos/dist/aos.css'; // Import the AOS CSS styles
+import Loader from './components/Loader';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loader/>}>
         <Header />
         <IntroSection />
         <AboutSection />

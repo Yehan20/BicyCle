@@ -50,7 +50,7 @@ const TestimonialSection = () => {
             className="img-fluid z-1 mb-2"
           />
         </Col>
-        <Col className="d-flex flex-column justify-content-center gap-2 testi-sec-col-b"  md={6}>
+        <Col md={6} className="d-flex flex-column justify-content-center gap-2 testi-sec-col-b" >
           <h2 className="text-white mb-4">Testimonials</h2>
           <div className="">
             <Slider {...settings}>

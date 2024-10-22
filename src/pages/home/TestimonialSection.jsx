@@ -28,6 +28,7 @@ const TestimonialSection = () => {
     arrows: false,
     fade:true,
     autoplaySpeed: 2000,
+    autplay:true
   };
 
   return (
@@ -59,7 +60,7 @@ const TestimonialSection = () => {
                         <img
                           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhnKTTBASbGs5YtDuHawHxU9W6UD8yfn5Phw&s"
                           alt={testimonial.name}
-                          className="rounded-circle me-3"
+                          className="rounded-circle mb-3"
                           width="50"
                           height="50"
                         />

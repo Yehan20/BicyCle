@@ -60,7 +60,7 @@ const ProductSection = () => {
         <Col md={6}>
           <h2 className="section-title">Our Products</h2>
         </Col>
-   c
+ 
         <Col md={12}>
 
           <Slider {...settings}>

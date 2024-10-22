@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Header from './pages/home/Header';
 import IntroSection from './pages/home/IntroSection';
+
 const AboutSection = lazy(() => import('./pages/home/AboutSection'));
 const ProductSection = lazy(() => import('./pages/home/ProductSection'));
 const TestimonialSection = lazy(() => import('./pages/home/TestimonialSection'));

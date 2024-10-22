@@ -10,7 +10,7 @@ function Header() {
     <>
    
       {['md'].map((expand) => (
-        <Navbar variant='dark' key={expand} expand={expand} className="position-absolute  mb-3">
+        <Navbar variant='dark' key={expand} expand={expand} className="position-absolute  mb-3 z-2">
           <Container fluid>
             <Navbar.Brand className='text-white' href="#">Bicycle</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -28,9 +28,9 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 gap-4 pe-3 ">
-                  <NavLink className='text-white nav-link' >Home</NavLink>
-                  <NavLink className='text-white nav-link' >Product</NavLink>
-                  <NavLink className='text-white nav-link' >Contact Us</NavLink>
+                  <NavLink className='nav-link text-white' to={'/'} >Home</NavLink>
+                  <NavLink className='nav-link text-white' to={'/product'} >Product</NavLink>
+                  <NavLink className='nav-link text-white' to={'/contact'} >Contact Us</NavLink>
 
                 </Nav>
 

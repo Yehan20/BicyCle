@@ -49,7 +49,7 @@ const ContactUsSection = () => {
   return (
     <>
       <Container fluid className="contact-section p-5 bg-black text-white" >
-        <Row className="mb-4 text-center" data-aos="fade-up" data-aos-offset="0" >
+        <Row className="mb-4 text-center" data-aos="fade-up" data-aos-offset="0" data-aos-delay="500" >
           <Col>
             <h2 className="section-title">Contact Us</h2>
             <p>We'd love to hear from you! Please feel free to reach out with any questions or feedback.</p>

@@ -1,8 +1,44 @@
-# React + Vite
+# BicyCle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A brief description of your project goes here, e.g., "BicyCle is a web application for managing bicycle rentals."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Yehan20/BicyCle.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd BicyCle
+   ```
+
+3. Install the node modules:
+
+   ```bash
+   npm install
+   ```
+
+## Running the Project
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+This will start the application on `http://localhost:5173` (or the port specified in the terminal). You can open this URL in your browser to see the app in action.
+

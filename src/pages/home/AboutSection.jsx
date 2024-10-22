@@ -1,26 +1,22 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-//import './AboutUs.css'; // Import the custom CSS for styling
 import BikeImage from '../../images/about-bike.png'
+
 const AboutSection = () => {
     return (
         <Container fluid className="about-section p-5 bg-black" >
             <Row className="align-items-center">
                 <Col md={6} className="position-relative about-section-col-a text-center">
 
-
                     <div className="skewed-red">
                     </div>
 
                     <img
+                        loading='lazy '
                         src={BikeImage}
                         alt="Bicycle"
                         className="bike-image w-100"
                     />
-
-
-
-
                 </Col>
 
                 <Col md={6} className="about-text pe-0" >

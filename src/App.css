@@ -4,9 +4,8 @@
    --clr-dark-red: #960606;
    --clr-light-red:#FC0A0A;
    --clr-grey:#808080;
-  
-
 }
+
 *,*::before,*::after {
    box-sizing: border-box;
 }
@@ -286,8 +285,11 @@ footer h5 {
   z-index: -1;
   letter-spacing: 3px;
 }
-.about-section,.product-section   {
+.about-section  {
     padding:40px 20px !important;
+}
+.product-section   {
+  padding:0px 20px 20px 20px !important;
 }
 .about-section .about-section-col-a  {
    order:2;
@@ -308,6 +310,12 @@ footer h5 {
 }
 .testi-sec-col-b {
    order: -1;
+}
+.testimonial-item {
+   padding: 20px  5px!important;
+}
+.testimonial-item p {
+   font-size: 14px;
 }
 .skewed-red-round {
    width: 100%;
@@ -334,6 +342,14 @@ footer .footer-container {
    nav ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
      padding-left: 200px !important;
      padding-right: 200px !important;
+   }
+  
+}
+
+@media screen and (min-width:2000px) {
+   nav ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
+     padding-left: 300px !important;
+     padding-right: 300px !important;
    }
   
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-//import './ProductCarousel.css'; // Custom CSS for styling
+
 
 // Import slick carousel CSS
 import "slick-carousel/slick/slick.css";
@@ -67,7 +67,7 @@ const ProductSection = () => {
             {products.map((product) => (
               <div key={product.id} className="product-item">
                 <div className="product-image-wrapper">
-                  <img src={product.img} alt={product.name} className="product-image" />
+                  <img src={product.img} alt={product.name} className="product-image" loading='lazy' />
                 </div>
                 <div className="product-info">
                   <p className="product-name">{product.name}</p>

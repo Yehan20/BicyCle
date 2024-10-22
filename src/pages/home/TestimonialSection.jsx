@@ -27,9 +27,10 @@ const TestimonialSection = () => {
     slidesToScroll: 1,
     arrows: false,
     fade:true,
+    autoplay:true,
     autoplaySpeed: 2000,
-    autplay:true
-  };
+  }
+  
 
   return (
     <Container fluid className="testi-section py-5 pe-5   bg-black">
@@ -42,6 +43,7 @@ const TestimonialSection = () => {
           </div>
 
           <img
+           loading="lazy"
            data-aos="zoom-in-right" data-aos-offset="0" 
             src={BikeImage} // Replace with the actual bike image URL
             alt="Bike"

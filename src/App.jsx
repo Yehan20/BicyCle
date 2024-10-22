@@ -39,8 +39,6 @@ function App() {
         <FooterSection />
         <BackToTopButton />
       </Suspense>
-
-
     </>
   )
 }

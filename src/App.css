@@ -296,6 +296,11 @@ footer h5 {
  
 }
 
+.intro-sec, .navbar-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
 .about-section  {
     padding:40px 20px !important;
 }
@@ -368,7 +373,7 @@ footer .footer-container {
 }
 
 @media screen and (min-width:1600px) {
-   nav ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
+   .intro-sec,  .navbar-container ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
      padding-left: 200px !important;
      padding-right: 200px !important;
    }
@@ -376,7 +381,7 @@ footer .footer-container {
 }
 
 @media screen and (min-width:2000px) {
-   nav ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
+   .intro-sec, .navbar-container ,.testi-section,.contact-section,.about-section,.intro-sec,.product-section,.cta-section,.footer-container,.footer-container-2{
      padding-left: 300px !important;
      padding-right: 300px !important;
    }

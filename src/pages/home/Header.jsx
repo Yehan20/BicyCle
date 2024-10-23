@@ -10,8 +10,8 @@ function Header() {
     <>
    
       {['md'].map((expand) => (
-        <Navbar variant='dark' key={expand} expand={expand} className="position-absolute  mb-3 z-2">
-          <Container fluid>
+        <Navbar variant='dark' key={expand} expand={expand} className="position-absolute   mb-3 z-2">
+          <Container fluid className='px-5 navbar-container'>
             <Navbar.Brand className='text-white' href="#">Bicycle</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas

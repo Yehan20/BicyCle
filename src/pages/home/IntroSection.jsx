@@ -7,7 +7,7 @@ import BikeImage from '../../images/bicycle.png'
 
 const IntroSection =()=> {
   return (
-    <Container fluid className="overflow-hidden intro-sec" style={{ backgroundColor: '#000', color: 'white', position: 'relative' }}>
+    <Container fluid className="overflow-hidden intro-sec px-5" style={{ backgroundColor: '#000', color: 'white', position: 'relative' }}>
     <Row className="d-flex align-items-center">
       <Col md={6} className="text-left  banner-sec-a text" data-aos="fade-up">
         <h1 className="display-4 text-upper-case">Ride Into Adventure!</h1>
